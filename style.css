@@ -1,31 +1,42 @@
-/*For navbar*/
-
-* {
+/*For all of the website*/
+body {
     background-color: black;
 }
 
-.topnav {
-  display: flex; 
-  justify-content: flex-end;
-  overflow: hidden;
+p, h1 {
+    text-align: center;
+    color: white;
 }
 
-.topnav a {
-  display: flex;
-  list-style: none;
-  text-align: center;
+
+/*For navbar*/
+.topnav {
+  display: flex; 
+  justify-content: space-between;
+  overflow: hidden;
   padding: 14px 16px;
+  align-items: center;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.navlinks a {
+  list-style: none;
+  margin-left: 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   color: white;
 }
 
-.topnav a:hover {
+.navlinks a:hover {
   background-color: #ddd;
   color: white;
 }
 
-.topnav a.active {
+.navlinks a.active {
   background-color: gray;
   color: white;
 }
@@ -52,4 +63,14 @@
     padding: 10px;
     font-size: 30px;
     text-align: center;
+}
+
+/* AboutMe */
+.aboutme {
+    align-self: center;
+    text-align: center;
+    background-color: lightgrey;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
 }
