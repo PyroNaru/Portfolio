@@ -1,3 +1,9 @@
+/*For navbar*/
+
+* {
+    background-color: black;
+}
+
 .topnav {
   display: flex; 
   justify-content: flex-end;
@@ -11,14 +17,39 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  color: white;
 }
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: white;
 }
 
 .topnav a.active {
-  background-color: navy;
+  background-color: gray;
   color: white;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+    align-self: flex-start;
+}
+
+
+/*For Product Grid*/
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    column-gap: 100px;
+}
+
+.container div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
 }
