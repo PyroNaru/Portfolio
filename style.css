@@ -110,21 +110,109 @@ p, h1, h2 {
 }
 
 
-/*For Product Grid*/
 
-.container {
+
+/* Project Stuff */
+.projects-container {
+    margin-top: 120px; /* avoid navbar overlap */
+    width: 90%;
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    column-gap: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.container div {
-    background-color: #f1f1f1;
-    border: 1px solid black;
-    padding: 10px;
-    font-size: 30px;
+.project-card {
+    background-color: #1a1a1a;
+    border: 2px solid #333;
+    padding: 30px;
+    border-radius: 10px;
     text-align: center;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px #555;
+}
+
+.project-card h2 {
+    margin-bottom: 10px;
+}
+
+.project-card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: gray;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.project-card button:hover {
+    background-color: black;
 }
 
 
+/* PROJECT PAGE TEMPLATE */
+.project-page {
+    margin-top: 120px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.project-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 20px 0;
+    border: 3px solid white;
+}
+
+.project-page h2 {
+  text-align: left;
+}
+
+.project-desc {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.project-features {
+    list-style: none;
+    padding: 0;
+}
+
+.project-features li {
+    background-color: #222;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+}
+
+.project-links {
+    margin-top: 20px;
+}
+
+.project-btn {
+    display: inline-block;
+    background-color: gray;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.project-btn:hover {
+    background-color: black;
+}
