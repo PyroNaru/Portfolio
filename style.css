@@ -10,7 +10,7 @@ body.pro {
     width: 100%;
     padding: 20px 60px;
     display: flex;
-    justify-content: space-between;
+    gap: 900px;
     align-items: center;
     background: rgba(20, 20, 20, 0.6);
     backdrop-filter: blur(10px);
@@ -294,3 +294,89 @@ body.pro {
     box-shadow: 0 0 18px rgba(150,120,255,0.45);
 }
 
+.project-body {
+    background-color: #0b0b0b;
+    min-height: 100vh;
+    color: white;
+    padding-top: 120px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Main card container */
+.project-container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255,255,255,0.04);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.project-title {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.project-desc {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.project-features {
+    list-style: none;
+    padding: 0;
+}
+
+.project-features li {
+    background: rgba(255,255,255,0.05);
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.project-tech {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.project-links {
+    margin-top: 20px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-right: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.project-btn:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+.back-btn {
+    background: rgba(255,150,50,0.2);
+}
