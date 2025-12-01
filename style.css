@@ -5,9 +5,16 @@ body {
     padding-top: 70px;
 }
 
+/*Homepage*/
+#homepage-body {
+    background-image: url("assets/background.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* keep navbar at top */
 .topnav {
-    border-bottom: 2px solid #4a0000;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,7 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 14px 16px;
-    background-color: #020509;
+    background-color: transparent;
     z-index: 10;
     box-sizing: border-box;
     height: 70px;
@@ -27,9 +34,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #050209;
+  background-color: transparent;
   width: 80%;
-  margin: 120px auto 0 auto; 
+  margin: 120px 0 0 50px; 
   padding: 40px;
   border-radius: 10px;
   box-sizing: border-box;
@@ -40,21 +47,6 @@ body {
   flex: 1;
   text-align: left;
   padding-right: 30px;
-}
-
-/* Image part */
-.about-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.about-image img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid white;
 }
 
 /* Optional button styling */
@@ -73,7 +65,6 @@ button:hover {
 }
 
 p, h1, h2 {
-    text-align: center;
     color: white;
 }
 
@@ -185,6 +176,7 @@ p, h1, h2 {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .project-features {
@@ -197,6 +189,7 @@ p, h1, h2 {
     padding: 10px;
     margin: 8px 0;
     border-radius: 6px;
+    text-align: left;
 }
 
 .project-links {
