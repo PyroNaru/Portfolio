@@ -380,3 +380,51 @@ body.pro {
 .back-btn {
     background: rgba(255,150,50,0.2);
 }
+
+/* ---- THANK YOU PAGE STYLES ---- */
+
+.thankyou-card {
+    width: 100%;
+    max-width: 450px;
+    margin: 160px auto 0;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 40px 35px;
+    border-radius: 18px;
+    box-shadow: 0 0 35px rgba(0,0,0,0.35);
+    backdrop-filter: blur(14px);
+    text-align: center;
+}
+
+.thank-title {
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.thank-text {
+    font-size: 18px;
+    color: #cfcfcf;
+    margin-bottom: 30px;
+}
+
+.thank-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: .2s ease;
+    backdrop-filter: blur(4px);
+}
+
+.back-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-3px);
+}
