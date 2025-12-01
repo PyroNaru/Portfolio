@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact — Miguel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio</h2>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+
+    <section class="contact-container">
+        <h1 class="contact-title">Contact Me</h1>
+        <p class="contact-sub">Let’s work together or talk about a project.</p>
+
+        <form action="https://formsubmit.co/relampagosmiguel438@gmail.com" method="POST" class="contact-form">
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="thanks.html">
+
+            <div class="input-group">
+                <label>Your Name</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <div class="input-group">
+                <label>Your Email</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label>Message</label>
+                <textarea name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="send-btn">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>

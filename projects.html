@@ -1,62 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio</title>
+    <title>Projects — Miguel Relampagos</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="topnav">
-        <h1 class="title"> My Portfolio </h1>
-        <div class="navlinks">
-            <a  href="index.html">Home</a>
-            <a href="about.html">Contacts</a>
-            <a class="active" href="projects.html">Projects</a>
-        </div>
-    </div>
-    
-    <div class="projects-container">
-        <div class="project-card">
-            <h2>DnD Website</h2>
-            <p>This was a small website Im in the process of making for my dnd campaign.</p>
-            <button>See More</button>
-        </div>
 
-        <div class="project-card">
-            <h2>SkulkBorne</h2>
-            <p>My First Ever Mod for a game called Minecraft(Still in the Making).</p>
-            <button onclick="window.location.href='projects/SkulkBorne.html'">Read More</button>
-        </div>
+<body class="pro">
 
-        <div class="project-card">
-            <h2>DnD Website</h2>
-            <p>This was a small website Im in the process of making for my dnd campaign.</p>
-            <button>See More</button>
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio</h2>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contacts</a>
         </div>
+    </nav>
 
-        <div class="project-card">
-            <h2>Games</h2>
-            <p>Some Planned Games I am in the process of making</p>
-            <button onclick="window.location.href='readMore.html'">Read More</button>
-        </div>
+    <section class="projects-section">
+        <h1 class="page-title">My Projects</h1>
 
-        <div class="project-card">
-            <h2>DnD Website</h2>
-            <p>This was a small website Im in the process of making for my dnd campaign.</p>
-            <button>See More</button>
-        </div>
+        <div class="projects-grid">
 
-        <div class="project-card">
-            <h2>DnD Website</h2>
-            <p>This was a small website Im in the process of making for my dnd campaign.</p>
-            <button>See More</button>
-        </div>
+            <!-- PROJECT CARD -->
+            <div class="project-card">
+                <div class="project-thumb" style="background-image: url('assets/project1.jpg');"></div>
+                <h2>Project Title 1</h2>
+                <p>A short description of what this project is about.</p>
+            </div>
 
-        <div class="project-card">
-            <h2>DnD Website</h2>
-            <p>This was a small website Im in the process of making for my dnd campaign.</p>
-            <button>See More</button>
+            <div class="project-card">
+                <div class="project-thumb" style="background-image: url('assets/project2.jpg');"></div>
+                <h2>Project Title 2</h2>
+                <p>A short description of what this project is about.</p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-thumb" style="background-image: url('assets/project3.jpg');"></div>
+                <h2>Project Title 3</h2>
+                <p>A short description of what this project is about.</p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-thumb" style="background-image: url('assets/project4.jpg');"></div>
+                <h2>Project Title 4</h2>
+                <p>A short description of what this project is about.</p>
+            </div>
+
         </div>
-    </div>
+    </section>
 
 </body>
 </html>

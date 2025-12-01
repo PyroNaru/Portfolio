@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio</title>
+    <title>Portfolio — Miguel Relampagos</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="homepage-body">
 
-    <div class="topnav">
-        <h1 class="title"> My Portfolio </h1>
-        <div class="navlinks">
-            <a class="active" href="index.html">Home</a>
-            <a href="about.html">Contacts</a>
+<body class="pro">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio</h2>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
         </div>
-    </div>
+    </nav>
 
-    <div class="aboutme">
-        <div class="about-text">
-            <h1>Hi!</h1 id>
-            <h1>I am, Miguel Anton Roel T. Relampagos</h1>
-            <p>HI THERE! I am Miguel Anton Roel T. Relampagos, 
-                who is aspiring game developer.</p>
-            <button onclick="window.location.href='readMore.html'">Read More</button>
-        </div>
-    </div>
-    
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Hello, I'm <span>Miguel</span></h1>
+        <p>Game developer • Programmer • Designer</p>
+
+        <button class="cta" onclick="location.href='projects.html'">
+            View My Work
+        </button>
+    </section>
+
 </body>
 </html>
