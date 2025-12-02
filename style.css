@@ -68,7 +68,7 @@ body.pro {
     margin-top: -10px;
 }
 
-/* BUTTON */
+/* button */
 .cta {
     margin-top: 30px;
     padding: 12px 30px;
@@ -238,6 +238,17 @@ body.pro {
     color: #ddd;
     font-size: 15px;
     line-height: 1.5;
+}
+
+.project-card button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #8a5cff;
+    color: white;
+    box-shadow: 0 0 15px rgba(138,92,255,0.4);
+    transition: 0.3s;
 }
 
 /*For the contacts*/
